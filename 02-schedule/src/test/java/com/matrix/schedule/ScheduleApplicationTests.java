@@ -1,17 +1,13 @@
-package com.matrix.quartz;
+package com.matrix.schedule;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class QuartzApplicationTests {
+class ScheduleApplicationTests {
 
 	@Test
 	void contextLoads() {
-	}
-
-	@Test testSampleJob() {
-		
 	}
 
 }
