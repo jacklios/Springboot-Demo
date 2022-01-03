@@ -1,0 +1,23 @@
+# person:
+#   lastName: zhangsan
+#   age: 18
+#   boss: false
+#   birth: 1990/12/12
+#   maps: { k1: v1,k2: 12 }
+#   lists:
+#     - lisi
+#     - zhaoliu
+#   dog:
+#     name: uu
+#     age: 5
+
+spring:
+  datasource:
+    username: root
+    password: eisoo.com123
+    url: jdbc:mysql://127.0.0.1:3306/usermanage
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.matrix.demo.entity;
